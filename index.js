@@ -1,3 +1,4 @@
+
 let contenedorImagen=document.querySelectorAll(".contenedorImagen")
 let detener=document.querySelector("#detener")
 let play=document.querySelector("#play")
@@ -21,7 +22,7 @@ Array.prototype.forEach.call(contenedorImagen,elemento => {
 
 
     })
-    
+    //inicio
 
 });
 function animacionprometida(){

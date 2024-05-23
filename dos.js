@@ -33,7 +33,7 @@ function accionLado(){
         arraNuevo[0]=resulatadoImagen
         let  resultadoArray=arraNuevo[0].split(",")
         let resultadoSubarray=resultadoArray[resultadoArray.length-1]
-        let indiceEelemento=resultadoSubarray.replace(/[\(\)-]/g,"")
+        let indiceEelemento=resultadoSubarray.replace(/[\(\)-]/g,"") // validando 
         let operacion=600*indiceEelemento
         let  resultdoIndice=indiceEelemento/600
         resultdoIndice=resultdoIndice+1
